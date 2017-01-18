@@ -1,0 +1,323 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	 /*max-width: 1025px;*/
+  	 min-width: 320px;
+}
+/* ==========================================================================
+   Author's custom styles - Header and hero
+  ========================================================================== */
+
+header {
+	/*border: 1px solid black;*/
+	background-color: #003087;
+
+}
+header img {
+	background-color: #003087;
+}
+
+nav {
+	/*display: inline-block;*/
+	float: right;
+  	font-family: 'Catamaran', sans-serif;
+ 	font-size: 1.5em;
+  	color: #ffffff;
+}
+
+nav ul {
+/*border: 1px solid black;*/
+	padding: 1.2em;
+	/*margin: 1.2em;*/
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+nav li {
+list-style: none;
+display: inline;
+vertical-align: middle;
+padding: 0em 1em;
+}
+
+nav li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	color: #307fe2;
+}
+
+
+/*=============================================================
+Global defaults - fonts, colors, links
+
+font-family: 'Catamaran', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+background grey: #e5e5e5;
+AHA Blue: #003087;
+AHA Red: #9d2235;
+text black: #45473e;
+callout white: #fff;
+aha light blue: #307fe2;
+
+==============================================================*/
+body {
+	border: 1px solid black;
+	background: #fff;
+}
+
+h1 {
+	color: #9D2235;
+	/*border: 1px solid black;*/
+	font-size: 1.5em;
+	font-family: 'Catamaran', sans-serif;
+
+}
+
+h2 {
+	font-size: 1.2em;
+	color: #09256f;
+	font-family: 'Open Sans Condensed', sans-serif;
+	/*border: 1px solid black;*/
+}
+
+h3 {
+	font-size: 1.1em;
+	color: #003087;
+	padding: 0 0 0 1em;
+}
+
+p{
+	color: #45473e;
+	/*border: 1px solid black;*/
+	font: 'Open Sans', sans-serif;
+/*	margin: 1em;*/
+	padding: 1em;
+}
+
+a, a:visited, a:active {
+
+}
+
+a:hover {
+	color: #003087;
+}
+
+
+
+/*=================================
+articles, buttons, callouts, sliders
+==============================================================*/
+
+article {
+	margin: 1em;
+
+}
+.banner {
+  position: relative; 
+  background: url(../images/doc-team-review.png) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 22%;
+}
+
+.tagline {
+	color: 'black';
+	font-size: 2em;
+	font-family: 'Catamaran';
+	position: absolute;
+  	width: 35%;
+  	left: 60%;
+  	bottom: 10%;
+  	padding: 3%;
+  	background: rgba(255, 255, 255, 0.5);
+  	box-shadow: 1px 1px 1px #3c3a3a;
+  	z-index: 2;
+}
+.topics {
+
+	float: left;
+  	width: 33%;
+  	/*box-shadow: 1px 0px 0px 0px #d4e1db inset;*/
+  	padding: 30px;
+  	margin: 1.3em 0 1.3em 0;
+  	
+}
+
+#callout {
+	background-color: #e5e5e5;
+	padding: 1em;
+	border-top: 3px solid #9d2235;
+	margin: auto;
+
+}
+
+#callout img {
+	float: left;
+	padding: 0 .75em 0 0;
+	
+	/*display: inline;*/
+}
+
+#callout p { 
+	margin-top: auto;
+	padding: 0 .5em .75em 0;
+	 }
+
+/*#callout .hollowbtn {
+	position: 0 -5em 0 0;
+}*/
+
+.hollowbtn {
+	border: 2px solid #a50034;
+	/*border-radius: 2px;*/
+	text-align: center;
+	margin: 1em;
+	padding: .85em;
+	color: #09256f;
+	text-transform: uppercase;
+}
+
+.hollowbtn:hover {
+	color: #ffffff;
+	background-color: #9d2235;
+
+}
+
+#callout > .hollowbtn {
+	display: inline-block;
+}
+
+.info {
+	float: left;
+  	width: 30%;
+  	/*box-shadow: 1px 0px 0px 0px #d4e1db inset;*/
+  	padding: 1em;
+  	margin: 1em /*0 1.3em 0*/;
+  	border-top: 3px solid #09256f;
+}
+/*.info p, .info h3 {
+	
+}*/
+
+.info-button {
+/*border-radius: 3px;*/
+text-align: center;
+align-self: center;
+margin: 1em;
+padding: .85em;
+color: #fff;
+background-color: #a50034;
+text-transform: uppercase;
+}
+
+a:-webkit-any-link { 
+	text-decoration: none !important; 
+}
+.button a {
+	text-decoration: none;
+}
+
+/*.tiles {
+	background-repeat: ;
+}*/
+
+#contact {
+	clear: both;
+	display: block;
+	height: 15em;
+	background-color: #307fe2;
+	opacity: 0.5;
+
+}
+
+#contact ul {
+	align-content: center;
+	alignment-baseline: central;
+}
+#contact li {
+	list-style: none;
+	display: inline;
+	padding: 1em;
+}
+footer {
+	clear: both;
+	background-color: #e5e5e5;
+	padding: 1em;
+}
+
+.footlinks li {
+	list-style: none;
+	display: inline;
+	text-align: right;
+	padding: 1em;
+	margin: 1em;
+	
+}
+
+.footlinks li a {
+	color: #609DE9;
+}
+
+/*Responsive Styles*/
+
+@media screen and (max-width: 400px) {
+	*{background-color: pink;}
+	html {font-size: 10px;}
+	h1 { font-size: 1.5em; }
+	h2 { font-size: 1.2em; }
+	h3 { font-family: 1.1em;}
+	
+	.topics {display: block;}
+	/*nav {display: none;}
+	.banner {display: none;}*/
+
+}
+
+/*@media screen and (min-width: 401px){
+	*{ 
+	background-color: purple; 
+	font-size: .75em;
+	}
+	html {font-size: 14px;}
+	h1 { font-size: 1.5em; }
+	h2 { font-size: 1.2em; }
+	h3 { font-family: 1.1em; }
+}*/
+/*
+@media screen and (max-width: 641px) {
+	*{ 
+	background-color: yellow; 
+	}
+	html {font-size: 16px;}
+	h1 { font-size: 1.5em; }
+	h2 { font-size: 1.2em; }
+	h3 { font-family: 1.1em; }
+}
+
+@media screen (max-width: 1025px) {
+	*html {font-size: 18px;}
+	h1 { font-size: 1.5em; }
+	h2 { font-size: 1.2em; }
+	h3 { font-family: 1.1em; }
+}
+*/

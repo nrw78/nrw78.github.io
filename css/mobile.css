@@ -1,0 +1,38 @@
+/*Responsive Styles*/
+
+@media screen and (max-width: 480px) {
+	*{background-color: pink;}
+	html {font-size: 10px;}
+	h1 { font-size: 1.5em; }
+	h2 { font-size: 1.2em; }
+	h3 { font-family: 1.1em;}
+	
+	#nav-toggle a {
+	color: #45473e;
+	list-style: none;
+	text-decoration: none;
+	}
+
+	#nav-toggle li {
+		display: block;
+		width: 100%;
+	}
+
+	.topics {display: block;}
+	nav {display: none;}
+	.banner {display: none;}
+
+	
+	.banner-mobile {
+
+	}
+
+	.intro-mobile {
+
+	}
+	
+	.topics-mobile{}
+
+	.hfconnect-mobile {}
+	.info-mobile {}
+}
