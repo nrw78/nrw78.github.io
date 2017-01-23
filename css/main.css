@@ -50,8 +50,7 @@ header {
 	margin-right: 0;
 }*/
 .main-nav  {
-	/*float: left;*/
-	/*margin-left: 30%;*/
+	
 	display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -65,7 +64,7 @@ nav {
 }
 
 nav ul {
-	/*margin: 1.2em;*/
+/*	margin: 1.2em;*/
 	-webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
     -webkit-padding-start: 0px;
@@ -252,9 +251,6 @@ article {
 
 }
 
-/*.hfconnect-img {
-
-}*/
 #callout {
 	background-color: #e5e5e5;
 	padding: 1em;
