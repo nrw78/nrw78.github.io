@@ -40,15 +40,7 @@ header {
 	float: left;
 	margin-right: 5%;
 }
-/*
 
-#ahaco-tagline {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bolder;
-	display: inline;
-	margin-left: 80%;
-	margin-right: 0;
-}*/
 .main-nav  {
 	
 	display: flex;
@@ -127,9 +119,11 @@ aha light blue: #307fe2;
 ==============================================================*/
 
 h1 {
-	color: #9D2235;
+	color: #9d2235;
 	font-size: 1.5em;
 	font-family: 'Catamaran', sans-serif;
+	text-align: center;
+	
 
 }
 
@@ -137,7 +131,7 @@ h2 {
 	font-size: 1.2em;
 	color: #09256f;
 	font-family: 'Open Sans Condensed', sans-serif;
-	/*border: 1px solid black;*/
+	text-align: center;
 }
 
 h3 {
@@ -231,6 +225,7 @@ article {
 	font-size: 1.5em;
 	padding-top: 2.5em;
 	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
 
 }
 
@@ -328,23 +323,58 @@ a:-webkit-any-link {
 	clear: both;
 	background: url(../images/next-steps.jpg) center center no-repeat;
 	background-size: cover;
-	height: 20em;
+	height: 30em;
 }
-#contact {
-	
-	/*background-color: #307fe2;*/
-	/*opacity: 0.5;*/
+
+.contact-container h1 {
+	color: #003087;
+	font-family: 'Catamaran';
+	font-size: 2em;
+	font-weight: bolder;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.contact-container p {
+	text-align: center;
+	color: black;
+	font-size: 1.2em;
+	font-weight: bolder;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.contact1, .contact2 {
+	width: 40%;
+	float: left;
+	margin-left: 5em;
 
 }
 
-#contact ul {
-	align-content: center;
-	/*alignment-baseline: central;*/
+.contact3 {
+	display: block;
+	text-align: center;
 }
 #contact li {
 	list-style: none;
-	display: inline;
-	padding: 1em;
+	display: inline-block;
+	padding: 1.5em;
+}
+/*#contact li:submit {
+	display: block;
+	clear: both;
+}*/
+
+input{
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+line-height: 1.5em;
+
+}
+
+textarea {
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+line-height: 1.5em;
 }
 footer {
 	clear: both;
@@ -394,5 +424,5 @@ float: right;
   	border-left: 20px solid transparent;
   	border-right: 20px solid transparent;
   
-  	border-top: 20px solid #f00;
+  	border-top: 25px solid #e5e5e5;
 }
