@@ -61,7 +61,6 @@ header {
 nav {
   	font-family: 'Catamaran', sans-serif;
  	font-size: 1.5em;
- 	/*font-weight: bolder;*/
  	margin-top: 2.35em;
 }
 
@@ -73,7 +72,6 @@ nav ul {
 }
 
 nav li {
-	/*text-transform: uppercase;*/
 	color: #45473e;
 	list-style: none;
 	display: inline;
@@ -270,11 +268,10 @@ article {
 	padding: 0 .75em 0 0;
 	width: 25%;
 	height: 25%;
-	
-	/*display: inline;*/
 }
 
 #callout p { 
+	float: left;
 	margin-top: auto;
 	padding: 0 .5em .75em 0;
 	 }
@@ -289,7 +286,7 @@ article {
 	background-color: #fff;
 	text-align: center;
 	margin: 1em;
-	padding: .85em;
+	padding: .5em;
 	color: #003087;
 	/*text-transform: uppercase;*/
 	display: block;
@@ -302,7 +299,8 @@ article {
 }
 
 #callout > .hollowbtn {
-	display: inline-block;
+	display: inline;
+	margin-left: 60%;
 }
 
 .info-container {}
@@ -316,14 +314,11 @@ article {
 }*/
 
 .info-button {
-/*border-radius: 3px;*/
 text-align: center;
-align-self: center;
 margin: 1em;
-padding: .85em;
+padding: .5em;
 color: #fff;
 background-color: #a50034;
-/*text-transform: uppercase;*/
 }
 
 a:-webkit-any-link { 
@@ -396,3 +391,12 @@ float: right;
 }
 
 
+.arrow-down {
+	margin: auto;
+  	width: 0; 
+  	height: 0; 
+  	border-left: 20px solid transparent;
+  	border-right: 20px solid transparent;
+  
+  	border-top: 20px solid #f00;
+}

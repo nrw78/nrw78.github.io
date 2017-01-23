@@ -9,21 +9,20 @@
   <!--   <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" /> -->
 
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/mobile.css">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+   <!--  <link rel="stylesheet" href="css/reset.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/mobile.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	
-
+	<!-- <link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css"> -->
 </head>
 <body>
 	<header>
-	
 		<div class="logo"><a href="index.html"><img src="images/aha-hf-logo-225.png"></a></div>
 		<!-- <div id="ahaco-tagline">
 		<a href="http://www.aha.org">An American Hospital Association Company</a>
 		</div> -->
-		<div class="main-nav">
-			<nav class="">
+		<div class="show-full-width">
+			<nav class="main-nav">
 				<ul>
 					<li><a href="#">Data</a></li>
 					<li><a href="#">Media</a></li>
@@ -34,7 +33,15 @@
 					<li><a href="#">About</a></li>
 					<li><form><input id="icon" style="text-indent:20px;" type="text" name="search"></form></li>
 				</ul>
-		<nav class="mobile-nav"><a id="nav-toggle" href="#">&#9776;</a>
+				</nav>
+				</div>
+		<div class="show-mobile show-responsive">
+			<a href="#" class="hamburger-icon">
+	  		<div class="line"></div>
+	  		<div class="line"></div>
+	  		<div class="line"></div>
+			</a>
+		<nav class="mobile-nav"><!-- <a id="nav-toggle" href="#">&#9776;</a> -->
 		<ul>
 				<li><a href="#">Data</a></li>
 				<li><a href="#">Media</a></li>
@@ -43,7 +50,6 @@
 				<li><a href="#">Connect</a></li>
 				<li><a href="#">Blog</a></li>
 				<li><a href="#">About</a></li>
-				<li><form><input id="icon" style="text-indent:20px;" type="text" name="search"></form></li>
 			</ul>
 		</nav>
 		</div>
@@ -52,14 +58,14 @@
 <section class="banner-container banner-responsive banner-mobile">
 		<div class="tagline">
 			<p><strong>Dive deep with the most trusted data in health care.</strong> Identify challenges. Find solutions. Gain insights. Make smart decisions. </p>
-			<a class="banner-btn" href="#">Get AHA Data</a>
+			<a  href="#" class="banner-btn">Get AHA Data</a>
 		</div>
 </section>
 <!-- Intro block -->
 <section class="intro-container intro-responsive intro-mobile">
-	<p>Health Forum helps health care leaders connect with data, education, tools and networking opportunities to help them achieve performance excellence and provide exceptional care in their communities.
+	<p>Health Forum connects health care leaders with data, education, tools and networking opportunities to help them achieve performance excellence and provide exceptional care in their communities.
 	</p>
-	
+	<div class="arrow-down"></div>
 </section>
 <!-- three column article block for legacy HF -->
 <section class="clearfix topics-container topics-responsive topics-mobile">
@@ -97,25 +103,25 @@
 			<img class="img-resize img-prop" src="images/custom-content.jpg">
 			<h3>Custom Content</h3>
 			<p>Content marketing allows for a more meaningful connection with your target audience while differentiating you from the competition. Health Forum will work with you to develop content that resonates with your target audience and gets you results.</p>
-			<a href="#" class="info-button">Learn More</a>
+			<a href="#" class="hollowbtn">Learn More</a>
 		</article>
 		<article class="info">
 			<img class="img-resize img-prop" src="images/advertise-readers.jpg">
 			<h3>Advertising</h3>
 			<p>Position your brand as a thought leader to engage a wide range of hospital and health care executives, decision-makers and key influencers. Health Forum gives you the opportunity to build custom content solutions to achieve your business goals.</p>
-			<a href="#" class="info-button">Learn More</a>
+			<a href="#" class="hollowbtn">Learn More</a>
 		</article>
 		<article class="info">
 			<img class="img-resize img-prop" src="images/research-survey.png">
 			<h3>Custom Research</h3>
 			<p>We regularly survey hospitals on how they're responding to emerging challenges in health care. Learn more about these surveys, and about how you can conduct your own custom market research with us.</p>
-			<a href="#" class="info-button">Learn More</a>
+			<a href="#" class="hollowbtn">Learn More</a>
 		</article>
 </section>
 <!-- Contact form -->
 <div class="contact-container ">
 	<section>
-		<article class=" contact contact-responsive contact-mobile">
+		<article class="contact contact-responsive contact-mobile">
 		<!-- <form action="#" method="post">
 			<ul id="contact">
 				<li><input type="text" name="fullName" value ="" placeholder="Your full name" required /></li>
@@ -127,7 +133,7 @@
 			</ul>
 		</form> -->
 		</article>
-</section>
+	</section>
 </div>
 <footer>
 		

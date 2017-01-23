@@ -1,5 +1,5 @@
-/*@media screen and (min-width: 481px){
-	*{ 
+@media screen and (max-width: 481px){
+	{ 
 	background-color: purple; 
 	font-size: .75em;
 	}
@@ -13,7 +13,7 @@
 	.topics-responsive {}
 	.hfconnect-responsive {}
 	.info-responsive {}
-}*/
+}
 
 /*
 @media screen and (max-width: 641px) {

@@ -1,11 +1,57 @@
-/*Responsive Styles*/
-
-@media screen and (max-width: 480px) {
-	*{background-color: pink;}
+@media (max-width: 560px) {
+	body {background-color: pink;}
 	html {font-size: 10px;}
 	h1 { font-size: 1.5em; }
 	h2 { font-size: 1.2em; }
 	h3 { font-family: 1.1em;}
+
+.main-nav {
+	display: none;
+}
+
+.mobile-nav li{
+	list-style: none;
+	display: block;
+	background-color: #e5e5e5;
+	color: #003087;
+}
+.hamburger{
+  width: 2.5rem;
+  float: right;
+  margin: 2em;
+  position: fixed;
+}
+
+.line{
+  width: 2.5rem;
+  height: .3125rem;
+  background: rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+  border-radius: 2.5rem;
+  margin-bottom: .52em;
+  opacity: 1;
+  /* 1. Set the transition property on the .line class */
+  transition: all 1s ease;
+}
+
+/* Second line */
+.active .line:nth-child(2) {
+/*   2. When the active class is added to the .hamburger-icon, fade the middle line out (hint: you can use the 'opacity' property). 
+*/  opacity: 0;
+ }
+
+/* Top line */
+.active .line:first-child {
+  transform: rotate(45deg);
+  transform-origin: 0 0;
+}
+
+/* Bottom line */
+.active .line:last-child {
+  transform: rotate(-45deg);
+  transform-origin: 0 5px;
+}
+
 	
 	#nav-toggle a {
 	color: #45473e;
@@ -36,3 +82,5 @@
 	.hfconnect-mobile {}
 	.info-mobile {}
 }
+
+
