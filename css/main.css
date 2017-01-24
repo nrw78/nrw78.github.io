@@ -401,3 +401,7 @@ float: right;
   
   	border-top: 25px solid #e5e5e5;
 }
+
+.show-mobile, .show-responsive {
+	display: none;
+}
