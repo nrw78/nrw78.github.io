@@ -39,6 +39,7 @@ header {
 .logo {
 	float: left;
 	margin-right: 5%;
+	margin-bottom: 10px;
 }
 
 .main-nav  {
@@ -95,13 +96,11 @@ nav form {
 background-image:url(../images/icons/search-icon.png); 
 background-repeat: no-repeat; 
 background-position: 210px .5px;
-
 }
 
 .mobile-nav {
 	display: none;
 }
-
 
 /*=============================================================
 Global defaults - fonts, colors, links
@@ -123,8 +122,6 @@ h1 {
 	font-size: 1.5em;
 	font-family: 'Catamaran', sans-serif;
 	text-align: center;
-	
-
 }
 
 h2 {
@@ -153,8 +150,6 @@ a:hover {
 	color: #003087;
 }
 
-
-
 /*=================================
 articles, buttons, callouts, sliders
 ==============================================================*/
@@ -166,7 +161,6 @@ article {
 .img-resize {
 	width:95%;
 	height: 95%;
-
 }
 .img-prop {
 	padding-left: 1em;
@@ -211,12 +205,10 @@ article {
 	margin: 0;
 }
 
-
 .intro-container {
 	background-color: #e5e5e5;
 	height: 10em;
-	-webkit-margin-before: 0;
-	
+	-webkit-margin-before: 0;	
 }
 
 .intro-container p {
@@ -267,11 +259,6 @@ article {
 	padding: 0 .5em .75em 0;
 	 }
 
-/*#callout .hollowbtn a {
-	display: inline;
-	padding-left: 30%;
-}
-*/
 .hollowbtn {
 	border: 2px solid #003087; 
 	background-color: #fff;
@@ -279,7 +266,6 @@ article {
 	margin: 1em;
 	padding: .5em;
 	color: #003087;
-	/*text-transform: uppercase;*/
 	display: block;
 	width: 33%;
 }
@@ -341,41 +327,30 @@ a:-webkit-any-link {
 	background-color: rgba(255, 255, 255, 0.3);
 }
 
-.contact1, .contact2 {
-	width: 40%;
-	float: left;
-	margin-left: 5em;
-
-}
-
-.contact3 {
-	display: block;
-	text-align: center;
+form {
+	
 }
 #contact li {
 	list-style: none;
-	display: inline-block;
-	padding: 1.5em;
-}
-/*#contact li:submit {
 	display: block;
-	clear: both;
-}*/
-
+	padding: 1.5em;
+	width: 100%;
+	text-align: center;
+}
 input{
 -webkit-border-radius: 3px;
 -moz-border-radius: 3px;
-border-radius: 3px;
+border-radius: 2px;
 line-height: 1.5em;
 
 }
 
-textarea {
+/*textarea {
 -webkit-border-radius: 3px;
 -moz-border-radius: 3px;
 border-radius: 3px;
 line-height: 1.5em;
-}
+}*/
 footer {
 	clear: both;
 	background-color: #e5e5e5;
