@@ -1,13 +1,17 @@
-@media (max-width: 560px) {
+@media (max-width: 480px) {
 	body {background-color: pink;}
-	html {font-size: 10px;}
+	html {font-size: 11px;}
 	h1 { font-size: 1.5em; }
 	h2 { font-size: 1.2em; }
 	h3 { font-family: 1.1em;}
 
-.main-nav {
+.logo-full, .logo-responsive {display: none;}
+
+.show-full-width {
 	display: none;
 }
+
+.show-mobile, .show-responsive {}
 
 .mobile-nav li{
 	list-style: none;
@@ -52,7 +56,7 @@
   transform-origin: 0 5px;
 }
 
-	
+	/*
 	#nav-toggle a {
 	color: #45473e;
 	list-style: none;
@@ -62,8 +66,8 @@
 	#nav-toggle li {
 		display: block;
 		width: 100%;
-	}
-
+	}*/
+/*
 	.topics {display: block;}
 	nav {display: none;}
 	.banner {display: none;}
@@ -84,3 +88,4 @@
 }
 
 
+*/

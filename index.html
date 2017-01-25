@@ -10,56 +10,63 @@
 
     <link rel="stylesheet" href="css/normalize.css">
    <!--  <link rel="stylesheet" href="css/reset.css"> -->
-    
-	<link rel="stylesheet" media ="screen and (min-width: 950px)" href="css/main.css">
+	<link rel="stylesheet" media ="screen and (min-width: 901px)" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="slick/slick.css">
-	<!-- <link rel="stylesheet" media="screen and (max-width: 480px)" type="text/css" href="css/mobile.css"> -->
-	<link rel="stylesheet" media="screen and (min-width: 481px)" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" media="screen and (max-width: 900px)" type="text/css" href="css/responsive.css">
+	<!-- <link rel="stylesheet" media="screen and (max-width: 480px)" type="text/css" href="css/mobile.css">
+	 -->
 	
 </head>
 <body>
-	<header>
-		<div class="logo"><a href="index.html"><img src="images/dummylogo-fin.png"></a></div>
-		<div class="show-full-width">
-			<nav class="main-nav">
-				<ul>
-					<li><a href="#">Data</a></li>
-					<li><a href="#">Media</a></li>
-					<li><a href="#">Education</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Connect</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">About</a></li>
-					<li><form><input id="icon" style="text-indent:20px;" type="text" name="search"></form></li>
-				</ul>
+	<header id="header-container">
+		<!-- <div id="header-container"> -->
+			<div class="logo-full"><a href="index.html"><img src="images/dummylogo-fin.png"></a></div>
+			<div class="logo-responsive"><a href="index.html"><img src="images/dummylogo-fin.png"></a></div>
+			<div class="logo-mobile"><a href="index.html"><img src="images/dummylogo-fin.png"></a></div>
+			<div class="show-full-width">
+				<nav class="main-nav">
+					<ul>
+						<li><a href="#">Data</a></li>
+						<li><a href="#">Media</a></li>
+						<li><a href="#">Education</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Connect</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">About</a></li>
+						<li><form><input id="icon" style="text-indent:20px;" type="text" name="search"></form></li>
+					</ul>
 				</nav>
-				</div>
-		<div class="show-mobile show-responsive">
-			<a href="#" class="hamburger-icon">
-	  		<div class="line"></div>
-	  		<div class="line"></div>
-	  		<div class="line"></div>
-			</a>
-			<!-- nav class="mobile-nav"><!- - <a id="nav-toggle" href="#">&#9776;</a> -->
-				<ul>
-					<li><a href="#">Data</a></li>
-					<li><a href="#">Media</a></li>
-					<li><a href="#">Education</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Connect</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">About</a></li>
-				</ul>
-			</nav>
-		</div>
+			</div>
+			<div class="show-mobile show-responsive">
+				<a href="#" class="hamburger-icon">
+	  			<div class="line"></div>
+	  			<div class="line"></div>
+	  			<div class="line"></div>
+				</a>
+				<nav class="mobile-nav responsive-nav"><!-- <a id="nav-toggle" href="#">&#9776;</a> -->
+					<ul>
+						<li><a href="#">Data</a></li>
+						<li><a href="#">Media</a></li>
+						<li><a href="#">Education</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Connect</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">About</a></li>
+					</ul>
+				</nav>
+			</div>
+		<!-- </div> -->
 	</header>
-	<!-- Hero image with tagline overlay -->
-<section class="banner-container banner-responsive banner-mobile">
-		<div class="tagline">
-			<p><strong>Dive deep with the most trusted data in health care.</strong> Identify challenges. Find solutions. Gain insights. Make smart decisions. </p>
-			<a  href="#" class="banner-btn">Get HF Data</a>
-		</div>
-</section>
+	<!-- Begin Hero image with tagline overlay -->
+
+	<div id="hero-container">
+		<section class="banner-full banner-responsive banner-mobile">
+			<div class="tagline">
+				<p><strong>Dive deep with the most trusted data in health care.</strong> Identify challenges. Find solutions. Gain insights. Make smart decisions. </p>
+				<!-- <a  href="#" class="hollowbtn">Get HF Data</a> -->
+			</div>
+		</section>
+	</div>
 <!-- Intro block -->
 <section class="intro-container intro-responsive intro-mobile">
 	<p>Hospital Forum connects health care leaders with data, education, tools and networking opportunities to help them achieve performance excellence and provide exceptional care in their communities.
@@ -67,7 +74,7 @@
 	<div class="arrow-down"></div>
 </section>
 <!-- three column article block for legacy HF -->
-<section class="clearfix topics-container topics-responsive topics-mobile">
+<section class="clearfix topics-container topics-responsive topics-mobile"> 
 		<article class="topics">
 			<img class="img-resize img-prop" src="images/digital-marketing.jpg">
 			<h3>Data</h3>
@@ -121,8 +128,7 @@
 <div class="contact-container">
 	<section>
 		<!-- <article class="contact contact-responsive contact-mobile"> -->
-		<h1>Ready to take the next step?</h1>
-		<!-- <p>Send us a message and a Health Forum account representative will contact you.</p> -->
+		<h1>Take the next step. Send us a message and we'll contact you.</h1>
 		<form action="https://formspree.io/nia.williams@gmail.com" method="POST" input data-parsely-validate class="contact contact-responsive contact-mobile">
 			<ul id="contact">
 				<!-- <div class="contact1"> -->
@@ -136,7 +142,7 @@
 				<!-- <li><textarea name="Message" value="" rows="10" cols="40" placeholder="Send us a message"></textarea></li> -->
 			<!-- 	</div> -->
 			<!-- <div class="contact3"> -->
-				<li><input type="submit" value="Please contact me"></li>
+				<li><input type="submit" value="Submit"></li>
 				<!-- </div> -->
 			</ul>
 		</form>
@@ -163,7 +169,7 @@
 				<li><a href=""><img src="images/icons/ig-icon.png"></a></li>
 			</ul>
 		</div>
-		<p>This website contains links to sites which are not owned or maintained by the American Hospital Association (AHA). The AHA is not responsible for the content of non-AHA linked sites, and the views expressed on non-AHA sites do not necessarily reflect the views of the American Hospital Association.</p>
+		<p>Copyright stuffandthingsandstuffandthings 2017</p>
 
 	</footer>
 		<script src="scripts/jquery-1.11.2.min.js"></script>
